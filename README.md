@@ -1,5 +1,5 @@
 # Open EVSE -- Eergy
-This is a modified version of the OpenEVSE board re-worked by Eergy.
+This is a modified version of the OpenEVSE board re-worked by Eergy. You will need to use EasyEDA to open the files. https://easyeda.com
 
 The goal is to make OpenEVSE production easier and cheaper by manifacturing with parts sourced from LCSC and board made by JLCPCB.
 
@@ -19,12 +19,12 @@ Board connectors have been changed with harder to disconnect ones.
 
 ## How to use
 
-In the editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it in the editor.
+In the editor (EasyEDA https://easyeda.com), Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it in the editor.
 
 
 ## How to install firmware
 
-Once your board is mnifactured and all components have been soldered in place, you can transfer the firmware to the Atmel microcontroller on the board. You will need a AVR ISP programmer like the one sold here: https://www.amazon.de/gp/product/B07Y3B8H91/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+Once your board is manifactured and all components have been soldered in place, you can transfer the firmware to the Atmel microcontroller on the board. You will need a AVR ISP programmer like the one sold here: https://www.amazon.de/gp/product/B07Y3B8H91/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
 As you program the Atmel for the first time remember to set the speed of the programmer to a lower speed. In the particular model of programmer linked above you will need to solder the contacts for a jumper in correspondence of JP3 and apply that jumper to the programmer.
 
